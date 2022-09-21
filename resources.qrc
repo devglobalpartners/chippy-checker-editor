@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/chippy_checker_editor" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
