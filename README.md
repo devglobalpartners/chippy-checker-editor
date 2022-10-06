@@ -9,15 +9,14 @@ The CCE plugin allows rapid local review and editing of training datasets for ma
 
 # Installation of the CCE plugin
 
-#### Download the ZIP plugin file from [this link](https://github.com/developmentseed/chippy-checker-editor/archive/refs/heads/main.zip).
-
-1. Click on `Plugins` -> `Manage and Install Plugins`.
-2. Select the option  `Install from ZIP`. 
-3. Select the zip file and click 'install', as shown in the gif below.
+1. Download this codebase as a zip file (Click on the green 'CODE' button at the top right of this github repo page, and select 'Download ZIP').
+2. Click on `Plugins` -> `Manage and Install Plugins`.
+3. Select the option  `Install from ZIP`. 
+4. Select the zip file and click 'install', as shown in the gif below.
 
 ![2022-07-11 12 03 43_fixed](https://user-images.githubusercontent.com/1152236/178319413-f6dac886-8bcf-4645-8ecb-c932ebbbfabd.gif)
 
-4. Start the CCE plugin by Clicking `Plugins` -> `Chippy Checker Editor`.
+5. Start the CCE plugin by Clicking `Plugins` -> `Chippy Checker Editor`.
 
 ## Instructions for use
 
