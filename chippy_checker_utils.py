@@ -162,7 +162,7 @@ def clone_vlayer(vlayer):
     """Clone vector layer in memory"""
     layer_type = {"0": "Point", "1": "LineString", "2": "Polygon"}
     if str(vlayer.geometryType()) in layer_type.keys():
-        str_source = layer_type[str(vlayer.geometryType())] + "?crs=epsg:" + str(vlayer.source())
+        str_source = layer_type[str(vlayer.geometryType())] + "?crs=" + str(vlayer.sourceCrs().toWkt())
     else:
         str_source = "Polygon"
     mem_layer = QgsVectorLayer(str_source, vlayer.name(), "memory")
